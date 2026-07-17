@@ -73,13 +73,13 @@ gps_telemetry/
 ## 1. Clonar el repositorio
 
 ```bash
-git clone https://github.com/usuario/proyecto-gps.git
+git clone https://github.com/usuario/gps_telemetry.git
 ```
 
 ## 2. Ingresar al proyecto
 
 ```bash
-cd proyecto-gps
+cd gps_telemetry
 ```
 
 ## 3. Instalar dependencias
