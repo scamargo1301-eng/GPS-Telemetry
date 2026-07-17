@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>GPS Telemetry Dashboard</title>
+
+    <link rel="stylesheet" href="/style.css">
+
+    <link rel="stylesheet"
+        href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+</head>
+
+<body>
+
+<div class="container">
+
+    <!-- Sidebar -->
+
+    <aside class="sidebar">
+
+        <h2>GPS Telemetry</h2>
+
+        <ul>
+
+            <li class="active">
+                <i class="fas fa-chart-line"></i>
+                Dashboard
+            </li>
+
+            <li>
+                <i class="fas fa-car"></i>
+                Vehículos
+            </li>
+
+            <li>
+                <i class="fas fa-map-marker-alt"></i>
+                Mapa
+            </li>
+
+        </ul>
+
+    </aside>
+
+
+    <!-- Contenido -->
+
+    <main class="content">
+
+        <header>
+
+            <div>
+
+                <h1>Dashboard</h1>
+                <span id="lastUpdate">Actualizando...</span>
+
+            </div>
+
+        </header>
+
+        <!-- Cards -->
+
+        <section class="cards">
+
+            <div class="card">
+
+                <i class="fas fa-car-side"></i>
+
+                <div>
+
+                    <h2 id="totalVehicles">0</h2>
+
+                    <p>Total vehículos</p>
+
+                </div>
+
+            </div>
+
+            <div class="card">
+
+                <i class="fas fa-location-arrow"></i>
+
+                <div>
+
+                    <h2 id="movingVehicles">0</h2>
+
+                    <p>En movimiento</p>
+
+                </div>
+
+            </div>
+
+            <div class="card">
+
+                <i class="fas fa-triangle-exclamation"></i>
+
+                <div>
+
+                    <h2 id="offlineVehicles">0</h2>
+
+                    <p>Sin señal</p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- MAPA -->
+
+        <section class="map-card">
+
+            <div id="map"></div>
+
+        </section>
+
+        <!-- Tabla -->
+
+        <section class="table-card">
+
+            <div class="table-header">
+
+                <h2>Vehículos</h2>
+
+                <input
+                    type="text"
+                    id="searchInput"
+                    placeholder="Buscar placa..."
+                >
+
+            </div>
+
+            <table id="tablaVehiculos">
+
+                <thead>
+
+                    <tr>
+
+                        <th>Placa</th>
+
+                        <th>Estado</th>
+
+                        <th>Latitud</th>
+
+                        <th>Longitud</th>
+
+                        <th>Última señal</th>
+
+                        <th>Acción</th>
+
+                    </tr>
+
+                </thead>
+
+                <tbody>
+
+                </tbody>
+
+            </table>
+
+        </section>
+
+    </main>
+
+</div>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+<script src="/script.js"></script>
+
+</body>
+</html>
