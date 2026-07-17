@@ -344,6 +344,19 @@ Esta lógica permite clasificar automáticamente el estado de cada vehículo uti
 * Despliegue en la nube.
 
 ---
+# Reporte de uso de Inteligencia Artificial
+
+La inteligencia artificial se utilizó como herramienta de apoyo durante el desarrollo del proyecto, principalmente para mejorar la interfaz gráfica y la documentación.
+
+Uso de la IA
+Interfaz gráfica: Se solicitaron sugerencias para mejorar la distribución de los elementos de la página, la organización del mapa, los formularios y el diseño visual mediante HTML y CSS.
+Backend: Se utilizó apoyo para resolver dudas puntuales sobre la estructura de algunas rutas y la validación básica de datos en la API REST.
+Documentación: Se empleó para la elaboración y organización del archivo README y la explicación de la lógica utilizada para determinar los estados de los vehículos.
+Conclusión
+
+Las sugerencias proporcionadas por la IA fueron revisadas, adaptadas e implementadas manualmente, utilizando esta herramienta únicamente como apoyo durante el desarrollo del proyecto.
+
+---
 
 #  Autor
 
