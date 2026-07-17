@@ -91,7 +91,7 @@ npm install
 ## 4. Ejecutar el servidor
 
 ```bash
-npm start
+npm start - node index.js
 ```
 
 La aplicación estará disponible en:
