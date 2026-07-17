@@ -7,7 +7,7 @@
 
 ---
 
-# 📖 Descripción
+#  Descripción
 
 Sistema desarrollado para el monitoreo de vehículos mediante una API REST, permitiendo registrar, consultar, actualizar y eliminar (CRUD) posiciones GPS en tiempo real.
 
@@ -31,7 +31,7 @@ Además, el proyecto cuenta con una interfaz web desarrollada en HTML, CSS y Jav
 
 ---
 
-# 🛠 Tecnologías utilizadas
+#  Tecnologías utilizadas
 
 | Tecnología | Descripción             |
 | ---------- | ----------------------- |
@@ -45,7 +45,7 @@ Además, el proyecto cuenta con una interfaz web desarrollada en HTML, CSS y Jav
 
 ---
 
-# 📁 Estructura del proyecto
+#  Estructura del proyecto
 
 ```text
 gps_telemetry/
